@@ -271,6 +271,14 @@
   padding: 0 25px 25px 0;
 }
 
+.floppy-icon {
+  width: 21px;
+  height: 21px;
+  transition: mix-blend-mode 0.5s;
+  fill: var(--button-text-color);
+  mix-blend-mode: difference;
+}
+
 .card__icon-button {
   background-color: transparent;
   border: none;
@@ -310,14 +318,6 @@
   gap: 8px;
   background-color: var(--background-color);
   border: solid 2px var(--accent-color);
-}
-
-.floppy-icon {
-  width: 21px;
-  height: 21px;
-  transition: mix-blend-mode 0.5s;
-  fill: var(--floppy-color);
-  mix-blend-mode: difference;
 }
 
 #modal-window {
