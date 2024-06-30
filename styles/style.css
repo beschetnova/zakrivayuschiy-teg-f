@@ -316,7 +316,7 @@
   width: 21px;
   height: 21px;
   transition: mix-blend-mode 0.5s;
-  fill: var(--button-text-color);
+  color: var(--button-text-color);
   mix-blend-mode: difference;
 }
 
