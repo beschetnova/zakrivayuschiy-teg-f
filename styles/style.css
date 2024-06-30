@@ -348,7 +348,6 @@
   width: 39px;
   height: 39px;
   flex-shrink: 0;
-  fill: var(--accent-color);
 }
 
 .modal-window__text {
