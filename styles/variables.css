@@ -12,5 +12,4 @@
       repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
       linear-gradient(#e7e7e7 0.01%, #1a1a1a);
     --button-text-color: var(--background-color);
-    --floppy-color: rgba(255, 255, 255, 1);
 }
