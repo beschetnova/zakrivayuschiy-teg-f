@@ -17,6 +17,7 @@
       repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
       linear-gradient(#e7e7e7 0.01%, #1a1a1a);
     --button-text-color: var(--background-color);
+    --floppy-color: var(--accent-color);
   }
 
 :root.theme-dark {
@@ -31,6 +32,7 @@
       repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px),
       linear-gradient(#007f0c, #004306);
     --button-text-color: var(--accent-color);
+    --floppy-color: var(--accent-color);
   }
   
   @media (prefers-color-scheme: dark) {
@@ -46,5 +48,6 @@
         repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px),
         linear-gradient(#007f0c, #004306);
       --button-text-color: var(--accent-color);
+      --floppy-color: var(--accent-color);
     }
   }
