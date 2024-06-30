@@ -1,1 +1,15 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+    --main-font: Inter-Variable, sans-serif;
+    --accent-font: PressStart2P, fantasy;
+    --subtitle-font: 700;
+    --main-text-font: 400;
+    --background-color: rgba(255, 255, 255, 1);
+    --accent-color: rgba(0, 0, 0, 1);
+    --background-image:
+      repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px),
+      repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
+      linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+    --button-text-color: var(--background-color);
+}
