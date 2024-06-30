@@ -315,8 +315,8 @@
 .floppy-icon {
   width: 21px;
   height: 21px;
-  fill: var(--floppy-color);
   transition: mix-blend-mode 0.5s;
+  fill: var(--floppy-color);
   mix-blend-mode: difference;
 }
 
