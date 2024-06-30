@@ -344,10 +344,11 @@
   align-items: center;
 }
 
-#modal-window .floppy-icon {
+.modal-window__floppy-icon {
   width: 39px;
   height: 39px;
   flex-shrink: 0;
+  color: var(--accent-color);
 }
 
 .modal-window__text {
